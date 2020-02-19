@@ -39,6 +39,7 @@ def href_list():
 def magic_print():
     outlink = []
     for link in links:
+        aa
 
 
 def disgia_print():
