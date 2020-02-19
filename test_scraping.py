@@ -7,6 +7,7 @@ from urllib.parse import urljoin
 import time
 import pprint
 import json
+import sys
 
 
 def href_list():
@@ -36,10 +37,53 @@ def href_list():
     for i in urllist:
         print(i)
 
-def magic_print():
-    outlink = []
-    for link in links:
-        aa
+
+def magic_print(bsObj2, charaName):
+
+    # 魔法技のCSSセレクタから情報取得
+    magic = bsObj2.select_one("#rendered-body > div.table-type-2 > div > div:nth-child(5) > table > tbody")
+    magicHead = bsObj2.select_one("#rendered-body > div.table-type-2 > div > div:nth-child(5) > table > tbody > tr:nth-child(1)")
+
+    # ファイルをオープン
+    with open('list.txt', 'a') as f:
+        # 魔法技のヘッダーを作成
+        str_ = 'キャラ名'
+        mghdList = []
+        for mghd in magicHead:
+            str_ = str_ + ',' + mghd.get_text()
+        f.write(str_)
+
+        # 改行
+        f.write('\n')
+
+
+        cnt = 0
+
+        # 魔法技を一つずつ区切る
+        for mm in magic:
+            cnt += 1
+
+            # 奇数なら値を取得する。
+            if cnt % 2 == 0:
+
+                # リストを空に
+                charadit = []
+
+                # リストの先頭にキャラ名を格納
+                charadit.append(charaName)
+
+                # 技情報を詳細に区切る
+                for m in mm:
+
+                    # 技詳細情報をリストに取得
+                    charadit.append(m.get_text())
+
+                # 取得したファイルを書き込み
+                f.write(','.join(charadit))
+
+
+            else:
+                pass
 
 
 def disgia_print():
@@ -63,8 +107,8 @@ def disgia_print():
         dupliLink.append(sh.get('href'))
     links = sorted(set(dupliLink), key=dupliLink.index)
 
-    # 出力ファイルをオープン
-    f = open('list.txt','w')
+    # 新規ファイル作成
+    with open('list.txt','w'):pass
 
     # キャラのhref情報を基にリンクが終わるまでキャラ情報を取得する。
     outlink = []
@@ -84,39 +128,12 @@ def disgia_print():
         print("title = ", title1)
 
         # キャラ固有技を取得
-        unique = bsObj2.select_one("#rendered-body > div.table-type-2 > div > div:nth-child(2) > table")
-        uniqueHead = bsObj2.select_one("#rendered-body > div.table-type-2 > div > div:nth-child(2) > table > tbody > tr:nth-child(1)")
+        # unique = bsObj2.select_one("#rendered-body > div.table-type-2 > div > div:nth-child(2) > table")
+        # uniqueHead = bsObj2.select_one("#rendered-body > div.table-type-2 > div > div:nth-child(2) > table > tbody > tr:nth-child(1)")
 
-        # 魔法技のCSSセレクタから情報取得
-        magic = bsObj2.select_one("#rendered-body > div.table-type-2 > div > div:nth-child(5) > table > tbody")
-        magicHead = bsObj2.select_one("#rendered-body > div.table-type-2 > div > div:nth-child(5) > table > tbody > tr:nth-child(1)")
+        magic_print(bsObj2, title1)
 
-        # 魔法技のヘッダーを作成
-        mgHeadList = []
-        mgHeadList.append("キャラ名")
-        for mghd in magicHead:
-            mgHeadList.append(mghd.get_text())
 
-        f.write('aa')
-        f.close
-        # 魔法技の情報を取得
-        mglist = []
-        # 魔法技を一つずつ区切る
-        for mm in magic:
-            mlist = []
-            mlist.append(title1)
-            # 魔法の詳細情報を一つずつ区切る
-            for aa in mm:
-                # 詳細情報をリストに追加
-                mlist.append(aa.get_text())
-
-            dictaa = dict(zip(mgHeadList, mlist))
-
-            mglist.append(dictaa)
-
-        outlink.append(mglist)
-
-    pprint.pprint(outlink)
 
 
 #         # 魔法技一つ目を取得
@@ -141,10 +158,9 @@ proxies = {
 # urlを取得
 wikiTop = "https://wiki.dengekionline.com"
 
-
 # hrefのリストメソッド実行
 # href_list()
-#disgia_print()
+disgia_print()
 
 '''
 #④「span」要素全て抽出します。
