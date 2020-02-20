@@ -38,6 +38,114 @@ def href_list():
         print(i)
 
 
+def header_print():
+    headList = ['キャラ名', 'タイプ', '性別', 'SPD', '', 'Lv4', 'Lv9', 'Lv15', 'Lv22', 'Lv30']
+    with open('list.txt', 'a',newline='\n') as f:
+        f.write(','.join(headList))
+        f.write('\n')
+
+
+def magicListGet(bsObj2):
+
+    try:
+
+        # 魔法技のCSSセレクタから情報取得
+        # 魔法の表を取得
+        magicList = []
+        magic = bsObj2.select_one("#rendered-body > div.table-type-2 > div > div:nth-child(5) > table > tbody")
+        magicList.append(magic.select_one('tr:nth-child(2) > td:nth-child(2)').string)  # Lv4
+        magicList.append(magic.select_one('tr:nth-child(4) > td:nth-child(2)').string)  # Lv9
+        magicList.append(magic.select_one('tr:nth-child(6) > td:nth-child(2)').string)  # Lv15
+        magicList.append(magic.select_one('tr:nth-child(8) > td:nth-child(2)').string)  # Lv22
+        magicList.append(magic.select_one('tr:nth-child(10) > td:nth-child(2)').string)  # Lv30
+
+    except Exception as e:
+        print(e)
+        pass
+    return(magicList)
+
+
+def uniqueListGet(bsObj2):
+
+    uniqueList = []
+    unique = bsObj2.select_one('#rendered-body > div.table-type-2 > div > div:nth-child(2) > table > tbody')
+    try:
+        # 技１つ目
+        uniqueList.append(unique.select_one('tr:nth-child(2) > td:nth-child(2)').string)  # 技名
+        uniqueList.append(unique.select_one('tr:nth-child(2) > td:nth-child(4)').string)  # SP
+        uniqueList.append(unique.select_one('tr:nth-child(2) > td:nth-child(5)').string)  # 火力
+        uniqueList.append(unique.select_one('tr:nth-child(2) > td:nth-child(6)').string)  # 範囲
+        uniqueList.append(unique.select_one('tr:nth-child(2) > td:nth-child(7)').string)  # 依存
+        uniqueList.append(unique.select_one('tr:nth-child(2) > td:nth-child(8)').string)  # 効果
+
+        # 技２つ目
+        uniqueList.append(unique.select_one('tr:nth-child(4) > td:nth-child(2)').string)  # 技名
+        uniqueList.append(unique.select_one('tr:nth-child(4) > td:nth-child(4)').string)  # SP
+        uniqueList.append(unique.select_one('tr:nth-child(4) > td:nth-child(5)').string)  # 火力
+        uniqueList.append(unique.select_one('tr:nth-child(4) > td:nth-child(6)').string)  # 範囲
+        uniqueList.append(unique.select_one('tr:nth-child(4) > td:nth-child(7)').string)  # 依存
+        uniqueList.append(unique.select_one('tr:nth-child(4) > td:nth-child(8)').string)  # 効果
+
+        # 技３つ目
+        uniqueList.append(unique.select_one('tr:nth-child(6) > td:nth-child(2)').string)  # 技名
+        uniqueList.append(unique.select_one('tr:nth-child(6) > td:nth-child(4)').string)  # SP
+        uniqueList.append(unique.select_one('tr:nth-child(6) > td:nth-child(5)').string)  # 火力
+        uniqueList.append(unique.select_one('tr:nth-child(6) > td:nth-child(6)').string)  # 範囲
+        uniqueList.append(unique.select_one('tr:nth-child(6) > td:nth-child(7)').string)  # 依存
+        uniqueList.append(unique.select_one('tr:nth-child(6) > td:nth-child(8)').string)  # 効果
+
+        # 技４つ目
+        uniqueList.append(unique.select_one('tr:nth-child(8) > td:nth-child(2)').string)  # 技名
+        uniqueList.append(unique.select_one('tr:nth-child(8) > td:nth-child(4)').string)  # SP
+        uniqueList.append(unique.select_one('tr:nth-child(8) > td:nth-child(5)').string)  # 火力
+        uniqueList.append(unique.select_one('tr:nth-child(8) > td:nth-child(6)').string)  # 範囲
+        uniqueList.append(unique.select_one('tr:nth-child(8) > td:nth-child(7)').string)  # 依存
+        uniqueList.append(unique.select_one('tr:nth-child(8) > td:nth-child(8)').string)  # 効果
+    except Exception as e:
+        print(e)
+        pass
+
+    return(uniqueList)
+
+
+def statusListGet(bsObj2):
+
+    charaList = []
+    chara = bsObj2.select_one('#rendered-body > div:nth-child(3) > div:nth-child(2) > table > tbody')
+
+    charaList.append(bsObj2.select_one('#page-main-title').string)  # キャラ名
+
+    charaList.append(chara.select_one('tr:nth-child(1) > td:nth-child(2)').string)  # 種族
+    #rendered-body > div.tableWidthAuto\29 \23 style\28 class\3d tableWidthAuto > div:nth-child(2) > table > tbody > tr:nth-child(1) > td:nth-child(2)
+    #rendered-body > div:nth-child(3) > div:nth-child(2) > table > tbody > tr:nth-child(1) > td:nth-child(2)
+    charaList.append(chara.select_one('tr:nth-child(1) > td:nth-child(4)').string)  # 性別
+
+    # パラメータ情報
+    parm = bsObj2.select_one('#rendered-body > div:nth-child(3) > div:nth-child(6) > table > tbody')
+
+    try:
+
+        # Lv1時
+        charaList.append(parm.select_one('tr:nth-child(2) > td:nth-child(2)').string)  # HP
+        charaList.append(parm.select_one('tr:nth-child(3) > td:nth-child(2)').string)  # ATK
+        charaList.append(parm.select_one('tr:nth-child(4) > td:nth-child(2)').string)  # DEF
+        charaList.append(parm.select_one('tr:nth-child(5) > td:nth-child(2)').string)  # INT
+        charaList.append(parm.select_one('tr:nth-child(6) > td:nth-child(2)').string)  # RES
+        charaList.append(parm.select_one('tr:nth-child(7) > td:nth-child(2)').string)  # SPD
+
+        # Lv9999時
+        charaList.append(parm.select_one('tr:nth-child(2) > td:nth-child(2)').string)  # HP
+        charaList.append(parm.select_one('tr:nth-child(3) > td:nth-child(2)').string)  # ATK
+        charaList.append(parm.select_one('tr:nth-child(4) > td:nth-child(2)').string)  # DEF
+        charaList.append(parm.select_one('tr:nth-child(5) > td:nth-child(2)').string)  # INT
+        charaList.append(parm.select_one('tr:nth-child(6) > td:nth-child(2)').string)  # RES
+        charaList.append(parm.select_one('tr:nth-child(7) > td:nth-child(2)').string)  # SPD
+    except Exception as e:
+        print(e)
+        pass
+    return(charaList)
+
+
 def magic_print(bsObj2, charaName):
 
     # 魔法技のCSSセレクタから情報取得
@@ -55,7 +163,6 @@ def magic_print(bsObj2, charaName):
 
         # 改行
         f.write('\n')
-
 
         cnt = 0
 
@@ -80,7 +187,6 @@ def magic_print(bsObj2, charaName):
 
                 # 取得したファイルを書き込み
                 f.write(','.join(charadit))
-
 
             else:
                 pass
@@ -108,45 +214,40 @@ def disgia_print():
     links = sorted(set(dupliLink), key=dupliLink.index)
 
     # 新規ファイル作成
-    with open('list.txt','w'):pass
+    with open('list.txt', 'w'):pass
+
+    # ヘッダー作成
+    header_print()
 
     # キャラのhref情報を基にリンクが終わるまでキャラ情報を取得する。
-    outlink = []
+    outList = []
     for link in links:
         # データ取得の待機時間
         time.sleep(2)
 
         # リンクを繋げて正しいリンクにする。
         charaLink = wikiTop + link
+
+        # 情報を取得する。
         html2 = requests.get(charaLink, proxies=proxies)
         bsObj2 = BeautifulSoup(html2.text, "html.parser")
-        # キャラ名を取得
-        title1 = bsObj2.find("h1").string
-        # outlink.append(title1)
+        #charaname =bsObj2.select_one('#rendered-body > div:nth-child(3) > div:nth-child(2) > table > tbody > #page-main-title')
+        print(bsObj2.select_one('#rendered-body > div:nth-child(3) > div:nth-child(2) > table > tbody > #page-main-title'))
+        # パラメータ取得
+        outList.extend(statusListGet(bsObj2))
 
-        # キャラ名出力
-        print("title = ", title1)
+        # 固有技取得
+        outList.extend(uniqueListGet(bsObj2))
 
-        # キャラ固有技を取得
-        # unique = bsObj2.select_one("#rendered-body > div.table-type-2 > div > div:nth-child(2) > table")
-        # uniqueHead = bsObj2.select_one("#rendered-body > div.table-type-2 > div > div:nth-child(2) > table > tbody > tr:nth-child(1)")
+        # 魔法技取得
+        outList.extend(magicListGet(bsObj2))
 
-        magic_print(bsObj2, title1)
+        # 出力ファイルを開いて行追加
+        with open('list.txt', 'a',newline='\n') as f:
+            f.write(','.join(outList))
+            f.write('\n')
 
-
-
-
-#         # 魔法技一つ目を取得
-#         aaa = magic.select_one("tbody > tr:nth-child(1)")
-#         for aa in aaa:
-#             pprint.pprint(aa.get_text())
-
-#     for row in rows:
-#         aa = row.get('href')
-#         csvRow = []
-#         for cell in row.findAll(['td', 'th']):
-#             csvRow.append(cell.get_text())
-#         print(csvRow)
+        outList = []
 
 
 # プロキシの設定
