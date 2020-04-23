@@ -1,0 +1,632 @@
+--------------------------------------------------
+ラハール
+パラメータ取得開始
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+キリア
+パラメータ取得開始
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+ヴァルバトーゼ
+パラメータ取得開始
+固定技取得開始
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+アデル
+パラメータ取得開始
+固定技取得開始
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+マオ
+パラメータ取得開始
+固定技取得開始
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+エトナ
+パラメータ取得開始
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+堕天使フロン
+パラメータ取得開始
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+セラフィーヌ
+パラメータ取得開始
+固定技取得開始
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+フーカ
+パラメータ取得開始
+キャラ情報: 'NoneType' object has no attribute 'select_one'
+固定技取得開始
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+ロザリンド
+パラメータ取得開始
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+アクターレ
+パラメータ取得開始
+キャラ情報: 'NoneType' object has no attribute 'select_one'
+固定技取得開始
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+フェンリッヒ
+パラメータ取得開始
+キャラ情報: 'NoneType' object has no attribute 'select_one'
+固定技取得開始
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+ラハールちゃん
+パラメータ取得開始
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+ゼロッケン
+パラメータ取得開始
+キャラ情報: 'NoneType' object has no attribute 'select_one'
+固定技取得開始
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+シシリー
+パラメータ取得開始
+固定技取得開始
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+アルティナ
+パラメータ取得開始
+キャラ情報: 'NoneType' object has no attribute 'select_one'
+固定技取得開始
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+魔神エトナ
+パラメータ取得開始
+キャラ情報: 'NoneType' object has no attribute 'select_one'
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+ゴードン
+パラメータ取得開始
+キャラ情報: 'NoneType' object has no attribute 'select_one'
+固定技取得開始
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+ジェニファー
+パラメータ取得開始
+キャラ情報: 'NoneType' object has no attribute 'select_one'
+固定技取得開始
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+雪丸
+パラメータ取得開始
+キャラ情報: 'NoneType' object has no attribute 'select_one'
+固定技取得開始
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+斧雪
+パラメータ取得開始
+キャラ情報: 'NoneType' object has no attribute 'select_one'
+固定技取得開始
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+プレネールさん
+パラメータ取得開始
+キャラ情報: 'NoneType' object has no attribute 'select_one'
+固定技取得開始
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+黒サンタラハール
+パラメータ取得開始
+キャラ情報: 'NoneType' object has no attribute 'select_one'
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+ノエル
+パラメータ取得開始
+キャラ情報: 'NoneType' object has no attribute 'select_one'
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+サンタウサリア
+パラメータ取得開始
+キャラ情報: 'NoneType' object has no attribute 'select_one'
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+晴れ着ロザリンド
+パラメータ取得開始
+キャラ情報: 'NoneType' object has no attribute 'select_one'
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+鏡餅プリニー
+パラメータ取得開始
+キャラ情報: 'NoneType' object has no attribute 'select_one'
+固定技取得開始
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+ニジレッド
+パラメータ取得開始
+固定技取得開始
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+ニジブルー
+パラメータ取得開始
+固定技取得開始
+技2: 'NoneType' object has no attribute 'string'
+技3: 'NoneType' object has no attribute 'string'
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+ニジイエロー
+パラメータ取得開始
+固定技取得開始
+技2: 'NoneType' object has no attribute 'string'
+技3: 'NoneType' object has no attribute 'string'
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+ニジグリーン
+パラメータ取得開始
+固定技取得開始
+技2: 'NoneType' object has no attribute 'string'
+技3: 'NoneType' object has no attribute 'string'
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+ニジパープル
+パラメータ取得開始
+固定技取得開始
+技2: 'NoneType' object has no attribute 'string'
+技3: 'NoneType' object has no attribute 'string'
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+ニジオレンジ
+パラメータ取得開始
+固定技取得開始
+技2: 'NoneType' object has no attribute 'string'
+技3: 'NoneType' object has no attribute 'string'
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+ニジグンジョウ
+パラメータ取得開始
+固定技取得開始
+技2: 'NoneType' object has no attribute 'string'
+技3: 'NoneType' object has no attribute 'string'
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+ニジピンク
+パラメータ取得開始
+固定技取得開始
+技2: 'NoneType' object has no attribute 'string'
+技3: 'NoneType' object has no attribute 'string'
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+ニジホワイト
+パラメータ取得開始
+固定技取得開始
+技2: 'NoneType' object has no attribute 'string'
+技3: 'NoneType' object has no attribute 'string'
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+ニジブラック
+パラメータ取得開始
+固定技取得開始
+技2: 'NoneType' object has no attribute 'string'
+技3: 'NoneType' object has no attribute 'string'
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+戦士男
+パラメータ取得開始
+固定技取得開始
+技3: 'NoneType' object has no attribute 'string'
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+戦士女
+パラメータ取得開始
+固定技取得開始
+技3: 'NoneType' object has no attribute 'string'
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+格闘家男
+パラメータ取得開始
+固定技取得開始
+技3: 'NoneType' object has no attribute 'string'
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+格闘家女
+パラメータ取得開始
+固定技取得開始
+技3: 'NoneType' object has no attribute 'string'
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+赤ドクロ
+パラメータ取得開始
+固定技取得開始
+技3: 'NoneType' object has no attribute 'string'
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+青ドクロ
+パラメータ取得開始
+固定技取得開始
+技3: 'NoneType' object has no attribute 'string'
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+緑ドクロ
+パラメータ取得開始
+固定技取得開始
+技3: 'NoneType' object has no attribute 'string'
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+星ドクロ
+パラメータ取得開始
+固定技取得開始
+技3: 'NoneType' object has no attribute 'string'
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+赤魔法使い
+パラメータ取得開始
+固定技取得開始
+技3: 'NoneType' object has no attribute 'string'
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+青魔法使い
+パラメータ取得開始
+固定技取得開始
+技3: 'NoneType' object has no attribute 'string'
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+緑魔法使い
+パラメータ取得開始
+固定技取得開始
+技3: 'NoneType' object has no attribute 'string'
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+星魔法使い
+パラメータ取得開始
+固定技取得開始
+技3: 'NoneType' object has no attribute 'string'
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+僧侶男
+パラメータ取得開始
+固定技取得開始
+技3: 'NoneType' object has no attribute 'string'
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+僧侶女
+パラメータ取得開始
+固定技取得開始
+技3: 'NoneType' object has no attribute 'string'
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+アーチャー女
+パラメータ取得開始
+固定技取得開始
+技3: 'NoneType' object has no attribute 'string'
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+盗賊
+パラメータ取得開始
+固定技取得開始
+技3: 'NoneType' object has no attribute 'string'
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+メイド
+パラメータ取得開始
+固定技取得開始
+技3: 'NoneType' object has no attribute 'string'
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+ガンナー男
+パラメータ取得開始
+固定技取得開始
+技3: 'NoneType' object has no attribute 'string'
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+忍者男
+パラメータ取得開始
+固定技取得開始
+技3: 'NoneType' object has no attribute 'string'
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+侍女
+パラメータ取得開始
+固定技取得開始
+技3: 'NoneType' object has no attribute 'string'
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+重騎士女
+パラメータ取得開始
+固定技取得開始
+技3: 'NoneType' object has no attribute 'string'
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+教授
+パラメータ取得開始
+固定技取得開始
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+魔界闘士
+パラメータ取得開始
+固定技取得開始
+技3: 'NoneType' object has no attribute 'string'
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+パイレーツ
+パラメータ取得開始
+固定技取得開始
+技3: 'NoneType' object has no attribute 'string'
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+闇黒騎士
+パラメータ取得開始
+固定技取得開始
+技3: 'NoneType' object has no attribute 'string'
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+天使兵男
+パラメータ取得開始
+固定技取得開始
+技3: 'NoneType' object has no attribute 'string'
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+天使兵女
+パラメータ取得開始
+固定技取得開始
+技3: 'NoneType' object has no attribute 'string'
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+ウサリア
+パラメータ取得開始
+キャラ情報: 'NoneType' object has no attribute 'select_one'
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+ラズベリル
+パラメータ取得開始
+固定技取得開始
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+デスコ
+パラメータ取得開始
+固定技取得開始
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+プリニガーV3
+パラメータ取得開始
+固定技取得開始
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+サーズデイ
+パラメータ取得開始
+キャラ情報: 'NoneType' object has no attribute 'select_one'
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+ゼニスキー
+パラメータ取得開始
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+カーチス
+パラメータ取得開始
+キャラ情報: 'NoneType' object has no attribute 'select_one'
+固定技取得開始
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+中ボス
+パラメータ取得開始
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+レーニア
+パラメータ取得開始
+固定技取得開始
+技4: 'NoneType' object has no attribute 'string'
+魔法技取得開始
+--------------------------------------------------
+プリニー族
+パラメータ取得開始
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+小鬼族
+パラメータ取得開始
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+猪人族
+パラメータ取得開始
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+兎闘族
+パラメータ取得開始
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+妖精族
+パラメータ取得開始
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+粘泥族
+パラメータ取得開始
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+寝子猫族
+パラメータ取得開始
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+魔翔族
+パラメータ取得開始
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+屍族
+パラメータ取得開始
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+珍茸族
+パラメータ取得開始
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+妖花族
+パラメータ取得開始
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+猫娘族
+パラメータ取得開始
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+夜魔族
+パラメータ取得開始
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+幻魔族
+パラメータ取得開始
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+魔界貴族
+パラメータ取得開始
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+兇熊族
+パラメータ取得開始
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+竜王族
+パラメータ取得開始
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+九尾族
+パラメータ取得開始
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+双竜族
+パラメータ取得開始
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+騎将族
+パラメータ取得開始
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+妖霊族
+パラメータ取得開始
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+魔獣族
+パラメータ取得開始
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+死告族
+パラメータ取得開始
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+死竜族
+パラメータ取得開始
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+銃魔神族
+パラメータ取得開始
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+妖魔族
+パラメータ取得開始
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+妖騎士族
+パラメータ取得開始
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+竜神族
+パラメータ取得開始
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
+邪竜族
+パラメータ取得開始
+固定技取得開始
+魔法技取得開始
+--------------------------------------------------
